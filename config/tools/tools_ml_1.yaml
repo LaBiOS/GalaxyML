@@ -9,6 +9,6 @@ tools:
 
 ######### FASTA TOOLS
 - name: sklearn_suite
-  owner: 	bgruening
+  owner: bgruening
   tool_panel_section_id: 'sklearn'
   tool_shed_url: https://toolshed.g2.bx.psu.edu
