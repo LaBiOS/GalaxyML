@@ -7,8 +7,151 @@ install_resolver_dependencies: True
 install_tool_dependencies: True
 tools:
 
-######### FASTA TOOLS
-- name: sklearn_suite
+######### SKLEARN TOOLS
+  
+- name: ml_visualization_ex
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: model_prediction
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: scipy_sparse
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_build_pipeline
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: sklearn_clf_metrics
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_data_preprocess
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_discriminant_classifier
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_ensemble
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_estimator_attributes
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_feature_selection
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_fitted_model_eval
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_generalized_linear
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: sklearn_lightgbm
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_model_fit
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_model_validation
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_nn_classifier
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_numeric_clustering
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_pairwise_metrics
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_regression_metrics
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_sample_generator
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: sklearn_searchcv
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_stacking_ensemble_models
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_svm_classifier
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_train_test_eval
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: sklearn_train_test_split
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+######### KERAS TOOLS
+
+- name: keras_batch_models
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: keras_model_builder
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: keras_model_config
+  owner: bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: keras_train_and_eval
   owner: bgruening
   tool_panel_section_id: 'sklearn'
   tool_shed_url: https://toolshed.g2.bx.psu.edu
