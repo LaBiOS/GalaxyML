@@ -138,20 +138,20 @@ tools:
 
 - name: keras_batch_models
   owner: bgruening
-  tool_panel_section_id: 'sklearn'
+  tool_panel_section_id: 'keras'
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   
 - name: keras_model_builder
   owner: bgruening
-  tool_panel_section_id: 'sklearn'
+  tool_panel_section_id: 'keras'
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   
 - name: keras_model_config
   owner: bgruening
-  tool_panel_section_id: 'sklearn'
+  tool_panel_section_id: 'keras'
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   
 - name: keras_train_and_eval
   owner: bgruening
-  tool_panel_section_id: 'sklearn'
+  tool_panel_section_id: 'keras'
   tool_shed_url: https://toolshed.g2.bx.psu.edu
