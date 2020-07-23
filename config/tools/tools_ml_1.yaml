@@ -1,0 +1,14 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+######### FASTA TOOLS
+- name: sklearn_suite
+  owner: 	bgruening
+  tool_panel_section_id: 'sklearn'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
