@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<toolbox>
+
+<!-- UPLOAD DATA -->
+
+<label id="label_upload" text="DATA SOURCE" />
+
+<section id="getext" name="Get Upload Data">
+    <tool file="data_source/upload.xml" />
+</section>
+
+<section id="getdb" name="Get Upload DB">
+</section>
+<section id="tools" name="Tools">
+</section>
+    
+<label id="label_ngs" text="MACHINE LEARNING" />
+    
+<section id="sklearn" name="Scikit Learn">
+</section>
+    
+</toolbox>
