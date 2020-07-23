@@ -16,7 +16,9 @@
     
 <label id="label_ngs" text="MACHINE LEARNING" />
     
-<section id="sklearn" name="Scikit Learn">
+<section id="sklearn" name="Scikit Learn Tools">
+</section>
+<section id="keras" name="KERAS Tools">
 </section>
     
 </toolbox>
